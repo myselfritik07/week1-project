@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing skills, projects, and expertise">
+    <title>John Doe - Full Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ============ Header & Navigation ============ -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home" aria-label="Home">JD.</a>
+                </div>
+                
+                <!-- Hamburger Menu for Mobile -->
+                <div class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </div>
+
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============ Main Content ============ -->
+    <main>
+        <!-- ============ Hero Section ============ -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">John Doe</span></h1>
+                <p class="hero-subtitle">Full Stack Developer | UI/UX Enthusiast | Problem Solver</p>
+                <p class="hero-description">
+                    I create beautiful, responsive websites and applications that solve real-world problems. 
+                    Let's build something amazing together.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary" aria-label="View my projects">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" aria-label="Contact me">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-image.jpg" alt="Profile image of John Doe" 
+                     class="profile-image" width="300" height="300">
+            </div>
+        </section>
+
+        <!-- ============ About Section ============ -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a passionate full-stack developer with 5+ years of experience building web applications. 
+                            I specialize in creating responsive, user-friendly interfaces and robust backend systems.
+                        </p>
+                        <p>
+                            My journey in web development started with a curiosity about how things work online, 
+                            which evolved into a career dedicated to solving complex problems through elegant code.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me contributing to open-source projects, 
+                            writing technical blogs, or exploring new technologies.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/images/about-image.jpg" alt="Working at desk with laptop" 
+                             width="300" height="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Skills Section ============ -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul class="skill-list">
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                            <li>Responsive Design</li>
+                            <li>UI/UX Principles</li>
+                            <li>Web Accessibility</li>
+                        </ul>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul class="skill-list">
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Python</li>
+                            <li>RESTful APIs</li>
+                            <li>Database Design</li>
+                            <li>Authentication</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools & Technologies -->
+                    <div class="skill-category">
+                        <h3>Tools & Tech</h3>
+                        <ul class="skill-list">
+                            <li>Git & GitHub</li>
+                            <li>Docker</li>
+                            <li>MongoDB & SQL</li>
+                            <li>Jest & Testing</li>
+                            <li>AWS</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <ul class="skill-list">
+                            <li>Problem Solving</li>
+                            <li>Team Collaboration</li>
+                            <li>Communication</li>
+                            <li>Agile/Scrum</li>
+                            <li>Project Management</li>
+                            <li>Mentoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Projects Section ============ -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <img src="assets/images/project-1.jpg" alt="E-commerce platform project screenshot" 
+                             width="300" height="200" class="project-image">
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>
+                                A full-stack e-commerce solution with product catalog, shopping cart, 
+                                payment integration, and admin dashboard.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-btn" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="link-btn" aria-label="View GitHub repository">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <img src="assets/images/project-2.jpg" alt="Task management app project screenshot" 
+                             width="300" height="200" class="project-image">
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>
+                                A productivity application allowing users to create, organize, 
+                                and track tasks with real-time collaboration features.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-btn" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="link-btn" aria-label="View GitHub repository">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <img src="assets/images/project-3.jpg" alt="Weather forecast app project screenshot" 
+                             width="300" height="200" class="project-image">
+                        <div class="project-content">
+                            <h3>Weather Forecast App</h3>
+                            <p>
+                                A responsive weather application fetching real-time data from APIs, 
+                                displaying forecasts with beautiful visual representations.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-btn" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="link-btn" aria-label="View GitHub repository">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <img src="assets/images/project-4.jpg" alt="Social network app project screenshot" 
+                             width="300" height="200" class="project-image">
+                        <div class="project-content">
+                            <h3>Social Network App</h3>
+                            <p>
+                                A social platform featuring user profiles, friend connections, 
+                                messaging, and content sharing capabilities.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">WebSocket</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-btn" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="link-btn" aria-label="View GitHub repository">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5 -->
+                    <article class="project-card">
+                        <img src="assets/images/project-5.jpg" alt="Blog platform project screenshot" 
+                             width="300" height="200" class="project-image">
+                        <div class="project-content">
+                            <h3>Blog Platform</h3>
+                            <p>
+                                A content management system with rich text editor, markdown support, 
+                                comments, and SEO optimization features.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Prisma</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Vercel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-btn" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="link-btn" aria-label="View GitHub repository">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 6 -->
+                    <article class="project-card">
+                        <img src="assets/images/project-6.jpg" alt="Portfolio website project screenshot" 
+                             width="300" height="200" class="project-image">
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>
+                                A responsive portfolio website showcasing projects and skills 
+                                with modern design and smooth animations.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link-btn" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="link-btn" aria-label="View GitHub repository">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section ============ -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="contact-intro">
+                    Have a project in mind? Let's work together! Fill out the form below 
+                    and I'll get back to you as soon as possible.
+                </p>
+                
+                <div class="contact-wrapper">
+                    <!-- Contact Form -->
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required 
+                                   aria-label="Your full name" placeholder="John Smith">
+                            <span class="error-message" id="nameError" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required 
+                                   aria-label="Your email address" placeholder="john@example.com">
+                            <span class="error-message" id="emailError" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" 
+                                   aria-label="Your phone number" placeholder="(123) 456-7890">
+                            <span class="error-message" id="phoneError" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required 
+                                   aria-label="Message subject" placeholder="Project Inquiry">
+                            <span class="error-message" id="subjectError" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required rows="5" 
+                                      aria-label="Your message" placeholder="Tell me about your project..."></textarea>
+                            <span class="error-message" id="messageError" role="alert"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" aria-label="Send message">
+                            Send Message
+                        </button>
+                        <span class="success-message" id="successMessage" role="status"></span>
+                    </form>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <a href="mailto:john@example.com">john@example.com</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <a href="tel:+1234567890">(123) 456-7890</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p>San Francisco, CA</p>
+                        </div>
+
+                        <div class="contact-item social">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+                                   aria-label="Visit GitHub profile">
+                                    <span class="social-icon">GitHub</span>
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
+                                   aria-label="Visit LinkedIn profile">
+                                    <span class="social-icon">LinkedIn</span>
+                                </a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" 
+                                   aria-label="Visit Twitter profile">
+                                    <span class="social-icon">Twitter</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ Footer ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 John Doe. All rights reserved.</p>
+                <p>Designed and built with <span class="heart">❤</span> by John Doe</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home" aria-label="Back to home">Back to Top</a>
+                <a href="#" aria-label="Privacy policy">Privacy</a>
+                <a href="#" aria-label="Terms of service">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
